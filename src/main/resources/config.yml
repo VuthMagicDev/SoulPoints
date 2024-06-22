@@ -1,0 +1,28 @@
+settings:
+  prefix: "&6&lSOUL &8⊳ &r"
+  default_soul: 10
+  default_soul_max: 10
+rehabilitate:
+  enable: true
+  time: "1h" # s for second, m for minute, h for hour and d for day (RESTART Server needed)
+  soul: 1
+death:
+  skip_death_screen: true
+  soul_lost: 1
+  min_to_lose: 5
+  min_to_lose_drop: true
+  lost_all_item: true
+  lost_all_item_soul: 0
+pvp:
+  enable: true
+  kill_soul: 1
+  chance: 10.0
+monster:
+  enable: true
+  kill_soul: 1
+  chance: 10.0
+database: # Do not touch if you don't know what you're doing
+  pool-size: 10
+backup: # Database backup
+  enabled: true
+  interval: "24h" # s for second, m for minute, h for hour and d for day (RESTART Server needed)

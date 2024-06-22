@@ -1,0 +1,9 @@
+name: soulpoints
+version: '${project.version}'
+main: org.firestorm.soulpoints.Soulpoints
+softdepend: [PlaceholderAPI]
+commands:
+  souls:
+    description: Main command
+    usage: /souls <sub-command>
+    aliases: sp
